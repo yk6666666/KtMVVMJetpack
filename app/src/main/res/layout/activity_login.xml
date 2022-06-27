@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <TextView
+        android:id="@+id/tvLoginPhoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_norm_black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/line"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="+86 135 2000 7780" />
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:padding="9dp"
+        android:text="本机号码一键登录"
+        android:textSize="16sp"
+        app:background_normal="#FF4D49"
+        app:background_pressed="@color/colorPrimary_press"
+        app:background_unable="#DDDDDD"
+        app:corner_radius="23dp"
+        app:enabled="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLoginPhoneNum"
+        app:text_color_normal="@color/color_while"
+        app:text_color_unable="@color/grey_969698" />
+
+    <TextView
+        android:id="@+id/tvLoginByOtherWay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="其他手机号登录"
+        android:textColor="@color/text_norm_black_alpha"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+    <ImageView
+        android:id="@+id/imgv_login_login_by_wechat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_wechat"
+        app:layout_constraintBottom_toTopOf="@+id/llLoginDealContainer"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/llLoginDealContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="36dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <CheckBox
+            android:id="@+id/chkLoginCheckDeal"
+            android:layout_width="17dp"
+            android:layout_height="match_parent"
+            android:button="@drawable/selector_checkbox2"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tvLoginDeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="阅读并同意隐私协议"
+            android:textColor="@color/text_norm_black_alpha"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
