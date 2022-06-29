@@ -1,9 +1,7 @@
 package com.dream.xiaobei.login
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.dream.xiaobei.databinding.ActivityAccountPasswordBinding
-import com.dream.xiaobei.databinding.ActivityLoginBinding
 import com.dream.xiaobei.main.MainActivity
 import com.dream.xiaobei.main.MainViewModel
 import com.tcl.base.common.ui.BaseActivity

@@ -1,6 +1,6 @@
 package com.dream.xiaobei.repository
 
-import rxhttp.wrapper.param.RxHttp
+//import rxhttp.wrapper.param.RxHttp
 
 /**
  *    author : yk
