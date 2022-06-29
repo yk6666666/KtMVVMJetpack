@@ -1,4 +1,4 @@
-package com.dream.xiaobei.app
+package com.dream.xiaobei.app.VerificationInput
 
 import android.content.Context
 import android.text.Editable
