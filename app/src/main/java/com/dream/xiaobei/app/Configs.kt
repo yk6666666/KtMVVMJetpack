@@ -1,10 +1,10 @@
-package com.tcl.tclzjpro.app
+package com.dream.xiaobei.app
 
 import com.dream.xiaobei.BuildConfig
 
 /**
  * desc   : APP设置类
- * author : tanksu
+ * author : yk
  * date   : 2019-11-17
  */
 object Configs {

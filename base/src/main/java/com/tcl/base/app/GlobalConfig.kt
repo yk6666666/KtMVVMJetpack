@@ -5,7 +5,7 @@ import com.tcl.base.common.ViewModelFactory
 
 /**
  * desc   :
- * author : tanksu
+ * author : yk
  * date   : 2019-11-17
  */
 class GlobalConfig {

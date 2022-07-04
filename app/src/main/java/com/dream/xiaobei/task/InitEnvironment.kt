@@ -1,10 +1,10 @@
-package com.tcl.tclzjpro.task
+package com.dream.xiaobei.task
 
 import com.dream.xiaobei.BuildConfig
 import com.dream.xiaobei.common.MmkvConstant
 import com.tcl.base.utils.MmkvUtil
 import com.tcl.launcher.task.MainTask
-import com.tcl.tclzjpro.app.Configs
+import com.dream.xiaobei.app.Configs
 
 /**
  *Author:yk

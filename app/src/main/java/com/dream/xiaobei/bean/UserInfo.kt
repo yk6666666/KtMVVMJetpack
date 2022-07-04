@@ -4,7 +4,7 @@ import java.io.Serializable
 
 /**
  * desc   :
- * author : tanksu
+ * author : yk
  * date   : 2019-11-17
  */
 /**用户bean*/

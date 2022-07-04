@@ -18,7 +18,7 @@ import rxhttp.wrapper.utils.GsonUtil
 
 /**
  * desc   : 用户信息管理类
- * author : tanksu
+ * author : yk
  * date   : 2019-11-17
  */
 object UserManager {

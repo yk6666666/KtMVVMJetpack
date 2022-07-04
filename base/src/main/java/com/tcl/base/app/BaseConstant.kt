@@ -2,7 +2,7 @@ package com.tcl.base.app
 
 /**
  * desc   :
- * author : tanksu
+ * author : yk
  * date   : 2019-11-17
  */
 object BaseConstant {

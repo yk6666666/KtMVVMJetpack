@@ -4,7 +4,7 @@ import android.view.ViewGroup.MarginLayoutParams
 
 /**
  * desc   :
- * author : tanksu
+ * author : yk
  * date   : 2019-11-17
  */
 object LayoutParamsUtils {

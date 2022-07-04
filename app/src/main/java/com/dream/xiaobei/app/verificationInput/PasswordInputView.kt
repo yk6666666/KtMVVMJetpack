@@ -1,4 +1,4 @@
-package com.dream.xiaobei.app.VerificationInput
+package com.dream.xiaobei.app.verificationInput
 
 import android.content.Context
 import android.text.Editable
@@ -34,7 +34,7 @@ class PasswordInputView @JvmOverloads constructor(
         mListener = listener
     }
 
-    fun clearInput(){
+    fun clearInput() {
         mBinding.edtInput?.setText("")
     }
 

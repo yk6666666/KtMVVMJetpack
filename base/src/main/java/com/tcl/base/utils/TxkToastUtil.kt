@@ -11,7 +11,7 @@ import com.tcl.base.databinding.AppViewToastBinding
 
 /**
  * desc   : 吐司工具类
- * author : tanksu
+ * author : yk
  * date   : 2020-12-29
  */
 class TxkToastUtil {

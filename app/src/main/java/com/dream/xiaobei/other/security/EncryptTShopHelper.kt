@@ -1,7 +1,7 @@
 package com.dream.xiaobei.other.security
 
 import com.tcl.base.utils.encipher.RSAUtil
-import com.tcl.tclzjpro.app.Configs
+import com.dream.xiaobei.app.Configs
 import org.json.JSONObject
 
 object EncryptTShopHelper {

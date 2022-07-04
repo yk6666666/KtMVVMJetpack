@@ -14,27 +14,27 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.dream.xiaobei.app.InputLineView
+        <com.dream.xiaobei.app.verificationInput.InputLineView
             android:id="@+id/pwdTv1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
 
-        <com.dream.xiaobei.app.InputLineView
+        <com.dream.xiaobei.app.verificationInput.InputLineView
             android:id="@+id/pwdTv2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             />
 
-        <com.dream.xiaobei.app.InputLineView
+        <com.dream.xiaobei.app.verificationInput.InputLineView
             android:id="@+id/pwdTv3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             />
 
-        <com.dream.xiaobei.app.InputLineView
+        <com.dream.xiaobei.app.verificationInput.InputLineView
             android:id="@+id/pwdTv4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -8,7 +8,7 @@ import com.tcl.base.common.ViewModelFactory
 
 /**
  * desc   : BaseApplication
- * author : tanksu
+ * author : yk
  * date   : 2019-11-17
  */
 open class BaseApplication : Application() {

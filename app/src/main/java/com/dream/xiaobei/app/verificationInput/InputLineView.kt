@@ -1,4 +1,4 @@
-package com.dream.xiaobei.app
+package com.dream.xiaobei.app.verificationInput
 
 import android.content.Context
 import android.util.AttributeSet

@@ -4,14 +4,10 @@ package com.dream.xiaobei
 import android.app.Activity
 import android.app.Application
 import android.os.SystemClock
-import com.dream.xiaobei.task.CatchCrashTask
-import com.dream.xiaobei.task.ExceptionMonitorTask
-import com.dream.xiaobei.task.InitHttpClient
-import com.dream.xiaobei.task.InitOtherTask
+import com.dream.xiaobei.task.*
 import com.tcl.base.BaseApplication
 import com.tcl.base.utils.startAppTime
 import com.tcl.launcher.TaskDispatcher
-import com.tcl.tclzjpro.task.*
 import com.tencent.mmkv.MMKV
 
 

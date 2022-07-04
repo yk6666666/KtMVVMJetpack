@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationTargetException;
 
 /**
  * desc   :
- * author : tanksu
+ * author : yk
  * date   : 2019-11-17
  */
 public class AppGlobals {

@@ -1,4 +1,4 @@
-package com.dream.xiaobei.app.VerificationInput
+package com.dream.xiaobei.app.verificationInput
 
 import android.content.Context
 import android.text.Editable
@@ -7,7 +7,6 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.appcompat.widget.LinearLayoutCompat
 import com.dream.xiaobei.`interface`.PwdInputListener
-import com.dream.xiaobei.app.InputLineView
 import com.dream.xiaobei.databinding.ViewVerificationInputBinding
 
 class VerificationInputView @JvmOverloads constructor(
