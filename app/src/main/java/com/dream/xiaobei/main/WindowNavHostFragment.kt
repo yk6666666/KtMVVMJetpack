@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.NavHostFragment
-import com.tcl.tclzjpro.main.WindowFrameLayout
+import com.tcl.xiaobei.main.WindowFrameLayout
 
 
 class WindowNavHostFragment : NavHostFragment() {

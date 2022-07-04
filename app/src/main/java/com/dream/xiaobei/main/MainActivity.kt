@@ -13,7 +13,7 @@ import com.dream.xiaobei.main.menu.*
 import com.dream.xiaobei.utils.StatusBarUtils
 import com.google.android.material.tabs.TabLayout
 import com.tcl.base.common.ui.BaseActivity
-import com.tcl.tclzjpro.main.FixFragmentNavigator
+import com.tcl.xiaobei.main.FixFragmentNavigator
 
 /**
  *@author yk

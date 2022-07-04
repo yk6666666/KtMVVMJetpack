@@ -1,4 +1,4 @@
-package com.tcl.tclzjpro.main
+package com.tcl.xiaobei.main
 
 import android.content.Context
 import android.os.Bundle

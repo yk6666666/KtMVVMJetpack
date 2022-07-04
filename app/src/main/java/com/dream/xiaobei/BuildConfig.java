@@ -5,7 +5,7 @@ package com.dream.xiaobei;
 
 public final class BuildConfig {
   public static final boolean DEBUG = false;
-  public static final String APPLICATION_ID = "com.tcl.tclzjpro";
+  public static final String APPLICATION_ID = "com.tcl.xiaobei";
   public static final String BUILD_TYPE = "release";
   public static final String FLAVOR = "appTest";
   public static final int VERSION_CODE = 7;
