@@ -4,6 +4,7 @@ import android.app.Application
 import android.webkit.WebView
 import com.blankj.utilcode.util.AppUtils
 import com.blankj.utilcode.util.RomUtils
+import com.dream.xiaobei.BuildConfig
 import com.dream.xiaobei.app.UserManager
 import com.kingswim.mock.HttpMockInterceptor
 import com.tcl.base.rxnetword.RxHttpManager

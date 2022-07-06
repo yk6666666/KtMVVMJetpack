@@ -10,7 +10,10 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/Theme.CbgBase">
-        <activity android:name=".login.AccountPasswordActivity"></activity>
+        <activity
+            android:name=".login.HuiWanActivity"
+            android:exported="false" />
+        <activity android:name=".login.AccountPasswordActivity" />
         <activity android:name=".login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

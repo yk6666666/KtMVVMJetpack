@@ -1,6 +1,7 @@
 package com.dream.xiaobei.task
 
 import com.blankj.utilcode.util.LogUtils
+import com.dream.xiaobei.BuildConfig
 import com.dream.xiaobei.base.TclTitleBarStyle
 import com.hjq.bar.TitleBar
 import com.jeremyliao.liveeventbus.LiveEventBus

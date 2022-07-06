@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 
     <ImageView
-        android:id="@+id/imgv_login_login_by_wechat"
+        android:id="@+id/tvLoginByWechat"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginBottom="30dp"

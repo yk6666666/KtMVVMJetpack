@@ -24,6 +24,9 @@ class LoginActivity : BaseActivity<MainViewModel, ActivityLoginBinding>(){
 
             }
         }
+        mBinding.tvLoginByWechat.ktClick {
+            ktStartActivity(HuiWanActivity::class)
+        }
     }
 
     override fun initDataOnResume() {
