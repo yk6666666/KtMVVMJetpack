@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="@string/app_name"
+            android:text="游戏"
             android:textSize="20sp" />
 
         <ImageView
@@ -45,6 +45,65 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/homeTitleBar" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tvGame"
+        android:layout_marginBottom="@dimen/dp_26"
+        android:text="狗贼杀"
+        android:textSize="@dimen/dp_26"/>
+
+    <TextView
+        android:id="@+id/tvGame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/dp_16"
+        android:text="游戏规则：(本规则最终解释权归朵朵所有)"
+        android:textSize="@dimen/dp_18"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/line"/>
+
+    <TextView
+        android:id="@+id/rule"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/dp_26"
+        android:layout_marginEnd="@dimen/dp_26"
+        android:layout_marginTop="@dimen/dp_16"
+        android:text="1.角色设定:偷狗贼x3、可爱狗x2、单身狗x1、普通好人牌x2、警察x1、\n2.单身狗可以摸人，坏人变坏人，摸到好人变好人\n3.好人牌没功能只有投票权利\n4. 警察是明牌，且可以发动一次拘捕，令一个人没法入夜无法投票，而且最后如果坏人多冲警察的话，警察有一次带人机会，也可以选择号票好人投自己，发动带人 \n5. 坏人牌功能与狼人类似，晚上偷狗，但是偷到好人会是平安夜"
+        android:textSize="@dimen/dp_15"
+        android:textColor="@color/color_pure_black_50"
+        app:layout_constraintTop_toBottomOf="@id/line"/>
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/btnLogin"
+        android:layout_width="@dimen/dp_160"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="9dp"
+        android:text="进入游戏"
+        android:textSize="16sp"
+        app:background_normal="#FF4D49"
+        app:background_pressed="@color/colorPrimary_press"
+        app:background_unable="#DDDDDD"
+        app:corner_radius="23dp"
+        app:enabled="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rule"
+        android:layout_marginTop="@dimen/dp_56"
+        app:text_color_normal="@color/color_while"
+        app:text_color_unable="@color/grey_969698" />
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/homeVp"
