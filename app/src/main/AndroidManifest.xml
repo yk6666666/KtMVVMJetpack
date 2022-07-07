@@ -5,10 +5,10 @@
     <application
         android:name=".XiaoBeiApp"
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon_app"
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icon_app"
         android:theme="@style/Theme.CbgBase">
         <activity
             android:name=".login.HuiWanActivity"
